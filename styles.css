@@ -1,0 +1,270 @@
+body
+{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+td{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.br
+{
+    display: block;
+    margin: 15px;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+.ex1
+{
+  position: absolute;
+  top: 40px;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  color:rgb(22, 22, 22);
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+hr
+{
+    height:3px;
+    background-color: black;
+    border:none;
+    margin:-0.5px;
+}
+
+
+
+
+  .headerDiv 
+  {
+    margin: 30px;
+    text-align: center;
+    color: black;
+    font-size: 18px; 
+    font-family: Helvetica;
+    line-height: 1.5;
+  }
+
+  .container 
+  {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-size:cover;
+    margin-bottom: -4px;
+  }
+
+  .centered 
+  {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 125px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-family: Georgia;
+  }
+
+  .centeredLower
+   {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: Georgia;
+  }
+
+  .generalInfo
+  {
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia;
+    margin-bottom: 30px;
+  }
+
+  .subGeneralInfo
+  {
+    text-align:center;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    position:relative; left: 0; right: 0; margin: 0 auto;
+    line-height: 1.8; 
+  }
+
+  .addGeneralInfo
+  {
+    text-align:justify;
+    font-weight:lighter;
+    width: 850px;
+    height: auto;
+    font-size: 20px;
+    position:relative; left: 0; right: 0; margin: 0 auto; 
+    line-height: 1.8;
+  }
+
+  .tableCenterShop {
+    background-image: url("ski-bord.jpg");
+    background-size:cover;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height: 490px;
+    box-sizing: border-box;
+  }
+
+  .tableText{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    font-family: Arial black;
+    }
+
+  .tableCenterContacts {
+    background-image: url("contacts.jpg");
+    background-size:cover;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height: 370px;
+    box-sizing: border-box;
+  }
+
+  .contacts
+  {
+    /* text-align: center; */
+    /* position: absolute; */
+    /* width: 12cm; */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;  
+    font-family: Arial black;
+  }
+
+    .tableCenterContacts2 {
+    background-image: url("contacts_background(2).jpg");
+    background-size:cover;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height: 311px;
+    box-sizing: border-box;
+  }
+
+  .tableContactsText {
+    color: white;
+    font-size: 16px; 
+    font-family: sans-serif;
+    line-height: 1.8;
+  }
+
+  .footer
+  {
+    text-align:center;
+    height: auto;
+    font-size: 18px;
+    position:relative; left: 0; right: 0; margin: 0 auto; 
+    line-height: 2;
+    font-family: Helvetica;
+    margin:30px
+  }
+
+  .contactsAdress
+  {
+    text-align: center;
+    position: absolute;
+    width: 5cm;
+    top: 5cm;
+    left: 5cm;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px; 
+    font-family: sans-serif;
+    line-height: 1.8;
+  }
+
+  .contactsPhone
+  {
+    text-align: center;
+    position: absolute;
+    width: 5cm;
+    top: 4.64cm;
+    left: 15.1cm;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px; 
+    font-family: sans-serif;
+    line-height: 1.8;
+  }
+
+  .contactsEmail
+  {
+    text-align: center;
+    position: absolute;
+    width: 5cm;
+    top: 4.64cm;
+    left: 25.15cm;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px; 
+    font-family: sans-serif;
+    line-height: 1.8;
+  }
+
+  .contactsSMedia
+  {
+    text-align: center;
+    position: absolute;
+    width: 5cm;
+    top: 3.8cm;
+    left: 35.1cm;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px; 
+    font-family: sans-serif;
+    line-height: 1.8;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(35, 112, 200);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(35, 112, 200);
+  }
+  
+  .container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 0px;
+  }
